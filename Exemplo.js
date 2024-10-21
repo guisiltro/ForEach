@@ -30,6 +30,7 @@ let multiplos = []
 
 numeros.forEach(function(numero1){
     multiplos.push(numero1 > 10)
+    multiplos++
 
     console.log(multiplos)
 })
@@ -46,7 +47,7 @@ palavras.forEach(function() {
     contador++;
 });
 
-console.log("Número de palavras:", contador); // Saída: Número de palavras: 4
+console.log( contador); // Saída: palavra separada
 
 
 
